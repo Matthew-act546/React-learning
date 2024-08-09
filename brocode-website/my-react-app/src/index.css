@@ -1,0 +1,147 @@
+/* CARDS */
+.card {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    max-width: 250px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.card .card-image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}   
+
+.card .card-title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: hsl(0, 0%, 20%);
+}
+
+.card .card-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 30%);
+}
+
+
+/*  1ST METHOD EXTERNAL*/
+/* .button {
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+} */
+
+/* Student List */
+.student {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: 10px;
+    border: 1px solid hsla(0, 0%, 50%, 0.8);
+    max-width: 42%;
+    width: 100%;
+    margin: 15px;
+    padding-left: 30px;
+}
+
+/* USER GREETING */
+.welcome-message {
+    font-size: 2.5rem;
+    background-color: hsl(120, 100%, 42%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.login-prompt {
+    font-size: 2.5rem;
+    background-color: hsl(0, 100%, 42%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.list-style {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 0px 20px 10px 10px;
+    border: 1px solid hsla(0, 0%, 50%, 0.8);
+    text-transform: capitalize;
+    max-width: 37%;
+    width: 100%;
+    height: 200px;
+    margin: 1rem;
+}
+
+.list-style li {
+    margin-bottom: 5px;
+}
+
+.list-style h2 {
+    text-align: center;
+    
+}
+
+/* Styling useState compomnents */
+.useState {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 450px;
+    text-align: center;
+    height: 360px;
+    border: 1px black solid;
+}
+
+.btn-useState {
+    margin: 10px;
+    padding: 10px;
+    font-size: 0.9rem;
+    max-width: 100px;
+    width: 100%;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.state {
+    font-size: 1rem;
+    font-weight: 1000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Color picker */
+.color-picker-container {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding: 1rem;
+    margin: 0 auto;
+
+    text-align: center;
+    font-size: large;
+}
+
+.color-display {
+    margin: 0 auto;
+    width: 190px;
+    height: 190px;
+    border: 3px solid hsl(0, 0%, 80%);;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s ease;
+}
+
+.color-display p {
+    color: hsl(0, 0%, 20%);
+}
