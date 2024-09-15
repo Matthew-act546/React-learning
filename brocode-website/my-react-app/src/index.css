@@ -145,3 +145,95 @@
 .color-display p {
     color: hsl(0, 0%, 20%);
 }
+
+
+/* To Do List app style */
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+.to-do-list {
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-to-do {
+    font-size: 3rem;
+}
+
+.to-do-button {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    border-radius: 10px;
+}
+
+.add-button {
+    background-color: hsl(125, 47%, 54%);
+}
+
+.add-button:hover {
+    background-color: hsl(125, 47%, 44%);
+}
+
+.delete-task {
+    background-color: hsl(10, 90%, 50%);
+}
+
+.delete-task:hover {
+    background-color: hsl(10, 90%, 40%);
+}
+
+
+.move-button {
+    background-color: hsl(207, 90%, 64%);
+}
+
+.move-button:hover {
+    background-color: hsl(207, 90%, 54%);
+}
+
+.input-add-todo {
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid hsla(0, 0%, 80%, 0.5);
+    border-radius: 5px;
+    color: hsla(0, 0%, 0%, 0.5);
+}
+
+.to-do-ol {
+    padding: 0%;
+}
+
+.todo-list-li {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+    background-color: hsl(0, 0%, 97%);
+    margin-bottom: 10px;
+    border: 3px solid hsla(0, 0%, 85%, 0.75);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.text {
+    flex: 1;
+}
+
+.delete-task .move-button {
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}

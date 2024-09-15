@@ -13,6 +13,7 @@ import ColorPicker from './ColorPicker.jsx';
 import UpdateObject from './UpdateObject.jsx';
 import UpdateArray from './UpdateArray.jsx';
 import Motor from './Motor.jsx';
+import ToDoList from './ToDoList.jsx';
 
 function App() { //serve as root in our app
 
@@ -33,6 +34,7 @@ function App() { //serve as root in our app
   ];
   return (
     <>
+      <ToDoList />
       <Motor />
       <br />
       <hr /> 
